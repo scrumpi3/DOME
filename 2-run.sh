@@ -1,0 +1,1 @@
+docker run --name='cbai-dome' -p 8080:8080 cbai/dome 

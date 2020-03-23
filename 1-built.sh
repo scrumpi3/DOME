@@ -1,0 +1,1 @@
+Docker build . -t 'cbai/dome'
