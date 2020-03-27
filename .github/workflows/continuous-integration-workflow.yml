@@ -32,6 +32,4 @@ jobs:
           name: DOMEApiServicesV7.war
           path: dist/war/DOMEApiServicesV7.war
       - name: Docker Build
-        run: 
-          using: 'docker'
-          image: 'Dockerfile'
+        run: ./1-built.sh
