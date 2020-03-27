@@ -19,7 +19,7 @@ If you're interested in contributing to the DOME source code base, please contac
 DOME is built using Ant.
 
 To build the DOME client, execute the command:
-*ant dist-client*
+`ant dist-client`
 
 To build the DOME server, execute the command:
 `ant dist-server`
