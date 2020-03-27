@@ -20,5 +20,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Build WAR file
         run: ant dist-war
-      -name: list
+      - name: list
         run: ls
