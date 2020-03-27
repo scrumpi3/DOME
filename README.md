@@ -22,22 +22,26 @@ To build the DOME client, execute the command:
 *ant dist-client*
 
 To build the DOME server, execute the command:
-*ant dist-server*
+`ant dist-server`
 
 To build the DOME war file, execute the command:
-*ant dist-war*
+`ant dist-war`
 
 The artifacts created by Ant can be removed by executing the command:
-*ant clean*
+`ant clean`
 
 ## Running DOME 
 DOME can also be run, after it is built, using Ant.
 
 To run the DOME client, execute the command:
-*ant run-client*
+`ant run-client`
 
 To run the DOME server, execute the command:
-*ant run-server*
+`ant run-server`
+
+## Project Information
+print project help information:
+`ant -p`
 
 ## License 
 The DOME core package is distributed under an MIT/X11 open source license. See license.txt for the full copyright and license.

@@ -19,6 +19,12 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
       - name: Build WAR file
+        run: ant build
+      - name: Build WAR file
+        run: ant build-test
+      - name: Build WAR file
+        run: ant test
+      - name: Build WAR file
         run: ant dist-war
       - name: list
         run: ls
