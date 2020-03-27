@@ -22,3 +22,8 @@ jobs:
         run: ant dist-war
       - name: list
         run: ls
+      - name: Upload DOMEApiServicesV7 WAR
+        uses: actions/upload-artifact@v1
+        with:
+          name: DOMEApiServicesV7.war
+          path: dist/war/DOMEApiServicesV7.war
