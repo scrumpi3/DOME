@@ -1,5 +1,8 @@
 # README 
 
+## Status
+![Build and Test DOME WAR file](https://github.com/scrumpi3/DOME/workflows/Build%20and%20Test%20DOME%20WAR%20file/badge.svg)
+
 ## Overview 
 DOME is the Distributed Object-based Modeling Environment. It's purpose and goal was to provide a standard way to develop analytical models with causal relationships. The DOME client facilitates this, and provides a standard way to wrap and link in models in other languages or tools such as Python or Excel.
 
