@@ -24,8 +24,9 @@ jobs:
         run: ant build-test
       - name: Test
         run: ant test
-      - name: Package WAR file
-        run: ant dist-war
+#      - name: Package WAR file
+#        run: ant dist-war
+
 #      - name: Upload DOMEApiServicesV7 WAR
 #        uses: actions/upload-artifact@v1
 #        with:
@@ -33,13 +34,13 @@ jobs:
 #          path: dist/war/DOMEApiServicesV7.war
 
 
-      - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@2.14
-        with:
-          name: beckmann/dome
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          tags: "latest"
+#      - name: Publish to Registry
+#        uses: elgohr/Publish-Docker-Github-Action@2.14
+#        with:
+#          name: beckmann/dome
+#          username: ${{ secrets.DOCKER_USERNAME }}
+#          password: ${{ secrets.DOCKER_PASSWORD }}
+#          tags: "latest"
 
 # need to add docker
 #- name: Docker Build
