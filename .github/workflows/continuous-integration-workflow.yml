@@ -39,7 +39,7 @@ jobs:
           name: beckmann/dome
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          tag_names: true
+          tags: "latest"
 
 # need to add docker
 #- name: Docker Build
